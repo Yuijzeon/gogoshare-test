@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login Page</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <form action="/user/login" method="post">
+    <input type="text" name="account" placeholder="帳號"><br>
+    <input type="password" name="password" placeholder="密碼"><br>
+    <input type="submit" value="登入">
+  </form>
+
+  <form action="/user" method="post">
+    <input type="text" name="name" placeholder="名稱"><br>
+    <input type="text" name="account" placeholder="帳號"><br>
+    <input type="password" name="password" placeholder="密碼"><br>
+    <input type="email" name="email" placeholder="email"><br>
+    <input type="number" name="phone" placeholder="手機"><br>
+    <input type="date" name="birthdate" placeholder="生日"><br>
+    <input type="submit" value="註冊">
+  </form>
+</body>
+
+</html>
